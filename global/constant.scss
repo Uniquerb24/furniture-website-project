@@ -1,0 +1,62 @@
+header.container{
+    border: 1px solid white;
+    height: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 4fr 0.5fr 0.5fr 0.5fr ;
+    gap: 10px;
+align-content: center;
+background-color: white;
+p{
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    
+}
+& p{
+    color: black;
+    font-weight:bold;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.be span{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+}
+#search input{
+    width: 80%;
+    height: 5vh;
+    border-radius: 20px;
+    padding-inline: 2rem;
+    border: none;
+    background-color: #f4f4f4f1;
+}
+#login button{
+    width: 90%;
+    height: 5vh;
+    margin-bottom:3px ;
+    border-radius: 14px;
+    border: none ;
+    font-weight:lighter ;
+    &:hover{
+        background-color: #f4f4f4f1;
+    }
+    
+}
+#sign button{
+    width: 100%;
+    height: 5vh;
+    margin-bottom:3px ;
+    border-radius: 14px;
+    background-color: skyblue; 
+    border: none; 
+    color: white;
+    font-weight: bold;
+    &:hover{
+        background-color: blue;
+    }
+}
